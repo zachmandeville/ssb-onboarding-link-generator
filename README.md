@@ -1,7 +1,6 @@
-#Onboarding Link Generator
+## Onboarding Link Generator
 
-**A command line tool to create a personalized static site for inviting your friend onto
-Scuttlebutt!**
+**A command line tool to create personalized patchwork invite pages for your friends!**
 
 # Background
 
@@ -36,14 +35,13 @@ hashbase
 
 # Screen Shots 
 
-**The Command Line Tooli**
-![the command line tool](tool-walkthrough.gif) 
+**The Command Line Tooli** !
+[the command line tool](resources/tool-walkthrough.gif) 
 
 **The Generated Invite Page** 
+![Page Opening](resources/page-screenshot-1.png)
 
-![Page Opening](page-screenshot-1.png)
-
-![The Pub Link](page-screenshot-2.png)
+![The Pub Link](resources/page-screenshot-2.png)
 
 # Usage
 
