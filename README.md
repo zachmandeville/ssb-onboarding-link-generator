@@ -4,13 +4,14 @@
 
 # Background
 
-A great way to grow Scuttlebutt intentionally is through word of mouth with our friends.  It can be
-difficult,though, to have friends join _and_ find you in the vast scuttleverse unless you are
-onboarding them in person while on the same local network.  What would be great is a personalized
-invite site you can send as a link to your friend, that includes all the steps needed to get onboard
-scuttlebutt and connected to a pub you are on. And because we value individual autonomy and
-diversity, it'd be _especially_ cool if you could host that invite link wherever you'd like.  That
-is where this tool comes in!
+I want Scuttlebutt to grow intentionally, and a great way to do that is word of mouth with our
+friends. It can be difficult to have friends join _and_ find you in the vast scuttleverse, though,
+unless you are onboarding them in person on the same local network. 
+
+What would be great is a personalized invite site you can send as a link to your friend, that
+includes all the steps needed to get onboard and connected to a pub you frequent. And because we
+value individual autonomy and diversity, it'd be _especially_ cool if you could host that invite
+link wherever you'd like.  That is where this tool comes in!
 
 
 # Summary of Use
@@ -71,5 +72,5 @@ These are pretty straightforward.  You will want to make sure you invite them to
 **Find, then move, your new site**
 When the tool is done you'll have a new directory within invites called 'friends-name'.  This has the index.html file and the stylesheet.  Simply move this entire directory to wherever you host your site.  Below is a link to a video showing how to do this using hashbase.
 
-**[How to Easily Host Invite Pages on Hashbase: A Video!](thevideo.html)**
+**[How to Easily Host Invite Pages on Hashbase: A Video!](https://vimeo.com/243558425)**
 
