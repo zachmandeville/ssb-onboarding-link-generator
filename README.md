@@ -72,5 +72,8 @@ These are pretty straightforward.  You will want to make sure you invite them to
 **Find, then move, your new site**
 When the tool is done you'll have a new directory within invites called 'friends-name'.  This has the index.html file and the stylesheet.  Simply move this entire directory to wherever you host your site.  Below is a link to a video showing how to do this using hashbase.
 
+**Save Time in the Future with the 'contact-info.ini' file**
+In the root directory of the repo is a file called 'contact-info.ini'.  This has three sections you can fill out with your own details.  Then, these details are automatically filled out in the questions.  It's useful so you don't have to type in yr pub key each time.  Fill in each one with whatever you like (or leave it blank if you wanna type it anew each time) but please don't remove any of the contacts.
+
 **[How to Easily Host Invite Pages on Hashbase: A Video!](https://vimeo.com/243558425)**
 
