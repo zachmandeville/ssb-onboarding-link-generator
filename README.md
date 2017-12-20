@@ -4,21 +4,63 @@
 
 # Background
 
-I want Scuttlebutt to grow intentionally, and a great way to do that is word of mouth with our
-friends. It can be difficult to have friends join _and_ find you in the vast scuttleverse, though,
-unless you are onboarding them in person on the same local network. 
+Within this repository is a tool you can run on your own computer to quickly
+whip up personalized patchwork onboarding pages  for your friends.  These pages
+include GIFs for how to download and use patchwork, a pub invite key with
+instructions on what to do with it, and some channels that you recommend they
+check out.
 
-What would be great is a personalized invite site you can send as a link to your friend, that
-includes all the steps needed to get onboard and connected to a pub you frequent. And because we
-value individual autonomy and diversity, it'd be _especially_ cool if you could host that invite
-link wherever you'd like.  That is where this tool comes in!
+The tool generates a styled HTML page, that you can then host on your own
+website.  If you don't have a website, we provide a tutorial at the end of this
+on how to quickly spin one up, using beaker browser and hashbase.!  
+
+Our intention with generating a page, but not hosting it, is to give you more
+power with the invites you send out.  Not only can you make the pages on your
+own time, and not require anyone's approval, but you can also further customize
+the page as you see fit.  If you don't like the greeting I use at the start of
+the site, go ahead and change it!  If you want to change how the page looks
+completely, you can do that too(with a few limitations).  There's a tutorial on
+how to do this at the bottom of the page too.
+
+Scuttlebutt values personal autonomy and subjectivity, the delight of multiple
+voices describing the same thing in their own unique ways.  This onboarding
+genaterator  is my attempt to honor these values through even the smallest
+tools.  
+
+Also, if I'm being honest (and I AM), I wanted to use this generator as a way
+to introduce you to some other cool tools like git, python, the beaker browser,
+and hashbase.  All of them are powerful, but could be overwhelming without some
+reason to use them.  The onboarding tool can be that reason, it's the code
+equivalent of playing "Heart and Soul" on the piano, so you can learn how
+pleasant the piano keys and melody feel.
+
+# Summary of Use 
+
+I'll offer quick instructions, and detailed instructions.  Dont' worry if the
+quick instructions don't make sense (_yet_), I'll explain each part after.
+
+**Quick barebones instructions for the solarpunk in a rush!**
+
+1. clone and enter the onboarding-link-generator repo
+
+2. request an invite key from a pub that you follow, or generate one yourself
+   (if you're a pub owner)
+
+3. From within the OLG repo, invoke the generator with `python3 helper.py`
+
+4. Answer all the questions it gives you. 
+
+5. When the questions are done, a new folder will be made for you.  Move it to
+   your website, then give that link to your friend!
 
 
-# Summary of Use
+**Details for the easygoing solarpunk**
 
-The onboarding link generator lets you create a static page for each of the friends you want to
-invite.  This page includes steps on installing patchwork, the pub you would like them to join, an
-invite code for this pub, and other good details for them to confidently join the 'verse.
+
+The onboarding link generator lets you create a static page for each of the
+friends you want to invite.  This page includes steps on installing patchwork,
+the pub you would like them to join, an invite code for this pub, and other
+good details for them to confidently join the 'verse.
 
 Each page follows a set and styled template, which includes handy GIFS for each of the major steps,
 and so you do not need to style the page, just personalize it.
